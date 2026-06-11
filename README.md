@@ -10,7 +10,7 @@ upload a movie clip. watch the color palette shift in real time as the video pla
 
 ```bash
 cd backend
-pip install flask flask-cors opencv-python-headless scikit-learn numpy
+pip3 install flask flask-cors opencv-python-headless scikit-learn numpy
 python app.py
 ```
 
