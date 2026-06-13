@@ -2,6 +2,10 @@
 
 Upload a movie clip. Watch the color palette shift in real time as the video plays.
 
+**Live demo:** [cinematica-xi.vercel.app](https://cinematica-xi.vercel.app)
+
+> The live demo runs on Render's free tier — cold starts can take 50+ seconds and large files may time out. For best results, run locally. Mobile is untested.
+
 ---
 
 ## Inspiration
@@ -63,6 +67,8 @@ Runs on `http://localhost:3000`
 3. Watch the video — the color strip below scrubs with playback
 4. The side panel shows dominant colors for the current scene
 5. Click any scene in the list to jump to it
+
+For the fastest and most reliable experience, run locally. The deployed version works best with short clips under 30MB.
 
 ---
 
