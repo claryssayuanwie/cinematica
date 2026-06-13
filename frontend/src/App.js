@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import './App.css';
 
-const API = 'https://cinematica-rbac.onrender.com';
+const API = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+
 
 function hexToRgb(hex) {
   const r = parseInt(hex.slice(1,3),16);
